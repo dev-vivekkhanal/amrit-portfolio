@@ -3,22 +3,22 @@ import React from "react";
 const ExperienceSection = () => {
   const experience_data = [
     {
-      start_date: "Nov 2020",
-      end_date: "May 2021",
-      company_name: "Tata Consultancy Service",
-      work_details:
-        "Lorem ipsum Nisi labore aute do aute culpa magna nulla voluptate exercitation deserunt proident.",
-    },
-    {
       start_date: "June 2021",
       end_date: "Present",
       company_name: "EKO Infomatics",
       work_details:
         "Lorem ipsum Nisi labore aute do aute culpa magna nulla voluptate exercitation deserunt proident.",
     },
+    {
+      start_date: "Nov 2020",
+      end_date: "May 2021",
+      company_name: "Tata Consultancy Service",
+      work_details:
+        "Lorem ipsum Nisi labore aute do aute culpa magna nulla voluptate exercitation deserunt proident.",
+    },
   ];
   return (
-    <div id="experienceSection" className="bg-white pb-20">
+    <div id="experienceSection" className="bg-white pb-20 px-5">
       <h1 className="text-center text-3xl py-10 pt-20 ">EXPERIENCE</h1>
       <div className=" py-10 w-[90%] mx-auto  md:w-[80%]  relative ">
         {/* center stick */}
@@ -59,7 +59,9 @@ const ExperienceSection = () => {
 
                 <div
                   className={`border-gray-400 bg-[#fafbff]  border  w-[calc(100%-100px)] md:w-full rounded-lg p-3 ${
-                    !index % 2 ? "md:visible" : "md:invisible"
+                    !index % 2 || index % 2 === 0
+                      ? "md:visible"
+                      : "md:invisible"
                   }`}
                 >
                   <div className="">
@@ -81,6 +83,9 @@ const ExperienceSection = () => {
             );
           })}
         </div>
+      </div>
+      <div className="bg-black text-white p-2 px-3 w-fit rounded-full ml-auto md:mx-auto">
+        Journey Started
       </div>
     </div>
   );
