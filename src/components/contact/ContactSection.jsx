@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import AlternateEmailRoundedIcon from "@mui/icons-material/AlternateEmailRounded";
+import linkedinIcon from "../../assets/contact/linkedin.svg";
 
 const ContactSection = (props) => {
   const formRef = useRef();
@@ -76,14 +77,45 @@ const ContactSection = (props) => {
             Send
           </button>
         </form>
-        <div className="flex-1 text-white flex md:flex-col gap-5 justify-center items-center">
-          <div className="flex gap-2 m-5 items-center">
-            <LocationOnOutlinedIcon fontSize="large" />
-            <span>Amritsar, Punjab, India</span>
+        <div className="flex-1 text-white grid grid-cols-1 gap-5 justify-items-start  place-content-center place-items-center items-center pb-20 md:pb-0 w-[60%] mx-auto ">
+          <div>
+            <a
+              href="https://goo.gl/maps/DhQKvxW6H4jNbVaD7"
+              target="_blank"
+              className="flex gap-10 m-5 justify-start   w-full  items-center group"
+            >
+              <LocationOnOutlinedIcon fontSize="large" />
+              <span className="group-hover:underline underline-offset-4 transition-all ease-in-out">
+                Bangalore, Karnataka India
+              </span>
+            </a>
           </div>
-          <div className="flex gap-2 m-5 items-center">
-            <AlternateEmailRoundedIcon fontSize="large" />
-            <span>amrit@paji.com</span>
+          <div>
+            <a
+              href="mailto:dev.amritsingh0870@gmail.com"
+              className="flex gap-10 m-5 justify-start   w-full  items-center group"
+            >
+              <AlternateEmailRoundedIcon fontSize="large" />
+              <span className="group-hover:underline underline-offset-4 transition-all ease-in-out">
+                dev.amritsingh0870@gmail.com
+              </span>
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/sukhamrit-singh-72348a140"
+              target="_blank"
+              className="flex gap-10 m-5 justify-start   w-full  items-center group "
+            >
+              <img
+                src={linkedinIcon}
+                alt="linkedin"
+                className="w-[30px] aspect-square"
+              />
+              <span className="group-hover:underline underline-offset-4 transition-all ease-in-out ml-2">
+                Sukhamrit singh
+              </span>
+            </a>
           </div>
         </div>
       </div>

@@ -14,15 +14,15 @@ import mysqlLogoNoColor from "../../assets/skills/icon_plane/mysql.svg";
 import webscrappingLogoColor from "../../assets/skills/icon_color/web-scrapping-color.svg";
 import webscrappingLogoNoColor from "../../assets/skills/icon_plane/web-scrapping.svg";
 
-// import pandasLogoColor from "../../assets/skills/icon_color/pandas-color.svg";
+import pandasLogoColor from "../../assets/skills/icon_color/pandas-color.svg";
 import pandasLogoNoColor from "../../assets/skills/icon_plane/pandas.svg";
 
 import gcpLogoColor from "../../assets/skills/icon_color/gcp-color.svg";
 import gcpLogoNoColor from "../../assets/skills/icon_plane/gcp.svg";
 import awsLogoColor from "../../assets/skills/icon_color/aws-color.svg";
 import awsLogoNoColor from "../../assets/skills/icon_plane/aws.svg";
-// import restapiLogoColor from "../../assets/skills/icon_color/rest-api-color.svg";
-// import restapiLogoNoColor from "../../assets/skills/icon_plane/rest-api.svg";
+import restapiLogoColor from "../../assets/skills/icon_color/rest-api-color.svg";
+import restapiLogoNoColor from "../../assets/skills/icon_plane/rest-api.svg";
 
 const SkillsSection = () => {
   const skillItems = [
@@ -64,7 +64,7 @@ const SkillsSection = () => {
     },
     {
       name: "Pandas",
-      logoColor: webscrappingLogoColor, //ISSUE
+      logoColor: pandasLogoColor,
       logoNoColor: pandasLogoNoColor,
     },
 
@@ -81,8 +81,8 @@ const SkillsSection = () => {
     },
     {
       name: "RestAPI",
-      logoColor: awsLogoColor, //ISSUE
-      logoNoColor: awsLogoNoColor, //ISSUE
+      logoColor: restapiLogoColor,
+      logoNoColor: restapiLogoNoColor,
     },
   ];
   return (

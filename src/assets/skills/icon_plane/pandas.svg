@@ -1,1 +1,10 @@
-<svg width="512px" fill="white" height="512px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><title>pandas icon</title><path d="M16.922 0h2.623v18.104h-2.623zm-4.126 12.94h2.623v2.57h-2.623zm0-7.037h2.623v5.446h-2.623zm0 11.197h2.623v5.446h-2.623zM4.456 5.896h2.622V24H4.455zm4.213 2.559h2.623v2.57H8.67zm0 4.151h2.623v5.447H8.67zm0-11.187h2.623v5.446H8.67Z"/></svg>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M240.156 30.2666H181.48V146.455H240.156V30.2666Z" fill="white"/>
+<path d="M240.156 268.937H181.48V385.125H240.156V268.937Z" fill="white"/>
+<path d="M240.156 180.368H181.48V235.187H240.156V180.368Z" fill="white"/>
+<path d="M145.896 125.781H87.2207V512H145.896V125.781Z" fill="white"/>
+<path d="M332.468 364.802H273.793V480.99H332.468V364.802Z" fill="white"/>
+<path d="M332.468 125.92H273.793V242.108H332.468V125.92Z" fill="white"/>
+<path d="M332.468 276.047H273.793V330.866H332.468V276.047Z" fill="white"/>
+<path d="M424.755 0H366.08V386.218H424.755V0Z" fill="white"/>
+</svg>

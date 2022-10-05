@@ -12,7 +12,7 @@ function App() {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
   return (
-    <div className="relative">
+    <div className="relative cursor-default">
       <HeroSection />
       <AboutMeSection />
       <SkillsSection />
